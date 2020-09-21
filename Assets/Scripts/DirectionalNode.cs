@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class DirectionalNode : MonoBehaviour
 {
-    public Sprite none;
-    public Sprite left;
-    public Sprite right;
-    public string current;
     SpriteRenderer sr;
+
+    public Sprite none, left, right;
+
+    public string current;
 
     // Start is called before the first frame update
     void Start()
